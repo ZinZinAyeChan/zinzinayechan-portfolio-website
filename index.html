@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zin Zin Aye Chan — Data Enthusiast</title>
+  <meta name="description" content="Portfolio of Zin Zin Aye Chan, a Commerce graduate and data enthusiast based in Sydney. Projects in machine learning, data visualisation, forecasting, statistics, SQL and Excel." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===================== NAV ===================== -->
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">Zin Zin Aye Chan</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg" aria-hidden="true">
+      <span class="hero-blob hero-blob-1"></span>
+      <span class="hero-blob hero-blob-2"></span>
+      <span class="hero-blob hero-blob-3"></span>
+      <span class="hero-grid"></span>
+      <span class="hero-shape hero-shape-1"></span>
+      <span class="hero-shape hero-shape-2"></span>
+      <span class="hero-shape hero-shape-3"></span>
+      <span class="hero-shape hero-shape-4"></span>
+      <span class="hero-shape hero-shape-5"></span>
+      <span class="hero-shape hero-shape-6"></span>
+    </div>
+    <div class="container hero-inner">
+      <h1>Zin Zin Aye Chan</h1>
+      <p class="hero-title">Data Enthusiast</p>
+      <p class="hero-tagline">Business Analytics graduate turning complex data into clear, practical decisions.</p>
+      <p class="hero-location">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        Sydney, NSW
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View projects</a>
+      </div>
+      <div class="hero-socials">
+        <a href="mailto:zinzinayechan@gmail.com" aria-label="Email Zin Zin Aye Chan">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/zinzin-ayechan/" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+          <svg class="icon icon-solid" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1-.02 5.001A2.5 2.5 0 0 1 4.98 3.5zM3 8.98h4V21H3V8.98zM10 8.98h3.84v1.64h.05c.53-1 1.84-2.06 3.79-2.06 4.05 0 4.8 2.67 4.8 6.14V21h-4v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85V21H10V8.98z"/></svg>
+        </a>
+        <a href="https://github.com/ZinZinAyeChan" target="_blank" rel="noopener" aria-label="GitHub profile">
+          <svg class="icon icon-solid" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.5.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02.8-.22 1.65-.33 2.5-.34.85.01 1.7.12 2.5.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85 0 1.34-.01 2.42-.01 2.75 0 .27.18.58.69.48A10 10 0 0 0 22 12c0-5.52-4.48-10-10-10z"/></svg>
+        </a>
+      </div>
+    </div>
+    <a href="#about" class="hero-scroll" aria-label="Scroll to next section">
+      <span>Scroll</span>
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+    </a>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <p class="section-eyebrow">About</p>
+      <h2 class="section-title">A bit about me</h2>
+      <div class="card about-card">
+        <p>I am a Commerce graduate with dual majors in Accounting and Business Analytics from Macquarie University, where I finished with a WAM of 81 and a place on the 2024 Merit List. My work spans customer and sales data analysis, segmentation, dashboard design and stakeholder reporting.</p>
+        <p>I am at my best translating complex data into clear, practical recommendations for non-technical audiences. A finance and accounting foundation underpins how I think about analytical problems, and I work confidently across SQL, Tableau, Excel, Python, and R.</p>
+        <div class="about-facts">
+          <div class="fact">
+            <span class="fact-num">10</span>
+            <span class="fact-label">Analytics &amp; data projects</span>
+          </div>
+          <div class="fact">
+            <span class="fact-num">81</span>
+            <span class="fact-label">WAM</span>
+          </div>
+          <div class="fact">
+            <span class="fact-num">5+</span>
+            <span class="fact-label">Tools &amp; languages</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <p class="section-eyebrow">Portfolio</p>
+      <h2 class="section-title">Projects</h2>
+      <p class="section-intro">A selection of my data and analytics projects. Use the filters to browse by tool.</p>
+
+      <div class="filters" id="filters" role="group" aria-label="Filter projects by tool">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="sql">SQL</button>
+        <button class="filter-btn" data-filter="tableau">Tableau</button>
+        <button class="filter-btn" data-filter="excel">Excel</button>
+        <button class="filter-btn" data-filter="python">Python</button>
+        <button class="filter-btn" data-filter="r">R</button>
+        <button class="filter-btn" data-filter="java">Java</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+
+        <article class="card project-card" data-category="tableau excel">
+          <a class="project-image" href="https://github.com/ZinZinAyeChan/business-analytics-project" target="_blank" rel="noopener" aria-label="View Business Analytics Project on GitHub">
+            <img src="assets/business-analytics-project.jpg" alt="Business Analytics Project preview" loading="lazy" />
+          </a>
+          <div class="project-body">
+            <div class="project-top">
+              <span class="project-tag">Tableau</span>
+              <span class="project-meta">Client project</span>
+            </div>
+            <h3>Business Analytics Project</h3>
+            <ul class="project-bullets">
+              <li><strong>Overview:</strong> an interactive Tableau dashboard built for a real client, Impact100 Sydney, through a university program.</li>
+              <li><strong>Approach:</strong> gathered and cleaned data on 50+ charity organisations, then designed 3 dashboards tailored to different user types.</li>
+              <li><strong>Outcome:</strong> a working tool the client could use to explore funding trends and volunteering opportunities, presented to them directly.</li>
+            </ul>
+            <div class="project-tools"><span>Tableau</span><span>Excel</span></div>
+            <a href="https://github.com/ZinZinAyeChan/business-analytics-project" class="project-link" target="_blank" rel="noopener">
+              View on GitHub
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="card project-card" data-category="python">
+          <a class="project-image" href="https://github.com/ZinZinAyeChan/customer-segmentation-analysis" target="_blank" rel="noopener" aria-label="View Customer Segmentation Analysis on GitHub">
+            <img src="assets/customer-segmentation-analysis.jpg" alt="Customer Segmentation Analysis preview" loading="lazy" />
+          </a>
+          <div class="project-body">
+            <div class="project-top">
+              <span class="project-tag">Python</span>
+              <span class="project-meta">Unsupervised ML</span>
+            </div>
+            <h3>Customer Segmentation Analysis</h3>
+            <ul class="project-bullets">
+              <li><strong>Overview:</strong> a machine learning project that groups supermarket customers by their shopping behaviour.</li>
+              <li><strong>Approach:</strong> analysed 4,000 customers and used clustering to sort them into 4 distinct groups by age, income and profile.</li>
+              <li><strong>Outcome:</strong> a clear profile of each group, with a tailored marketing approach recommended for all 4.</li>
+            </ul>
+            <div class="project-tools"><span>Python</span><span>scikit-learn</span><span>pandas</span></div>
+            <a href="https://github.com/ZinZinAyeChan/customer-segmentation-analysis" class="project-link" target="_blank" rel="noopener">
+              View on GitHub
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="card project-card" data-category="sql">
+          <a class="project-image" href="https://github.com/ZinZinAyeChan/mysql-layoffs-analysis" target="_blank" rel="noopener" aria-label="View MySQL Layoffs Analysis on GitHub">
+            <img src="assets/mysql-layoffs-analysis.jpg" alt="MySQL Layoffs Analysis preview" loading="lazy" />
+          </a>
+          <div class="project-body">
+            <div class="project-top">
+              <span class="project-tag">SQL</span>
+              <span class="project-meta">Cleaning &amp; EDA</span>
+            </div>
+            <h3>MySQL Layoffs Analysis</h3>
+            <ul class="project-bullets">
+              <li><strong>Overview:</strong> a SQL project on a real-world dataset of 2,300+ global tech-company layoffs.</li>
+              <li><strong>Approach:</strong> cleaned the raw data from scratch, removing duplicates and fixing inconsistent entries, then explored it with SQL queries.</li>
+              <li><strong>Outcome:</strong> a clear view of which companies, industries and years were hit hardest.</li>
+            </ul>
+            <div class="project-tools"><span>MySQL</span></div>
+            <a href="https://github.com/ZinZinAyeChan/mysql-layoffs-analysis" class="project-link" target="_blank" rel="noopener">
+              View on GitHub
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="card project-card" data-category="excel">
+          <a class="project-image" href="https://github.com/ZinZinAyeChan/retail-turnover-forecasting" target="_blank" rel="noopener" aria-label="View Retail Turnover Forecasting on GitHub">
+            <img src="assets/retail-turnover-forecasting.jpg" alt="Retail Turnover Forecasting preview" loading="lazy" />
+          </a>
+          <div class="project-body">
+            <div class="project-top">
+              <span class="project-tag">Excel</span>
+              <span class="project-meta">Time series</span>
+            </div>
+            <h3>Retail Turnover Forecasting</h3>
+            <ul class="project-bullets">
+              <li><strong>Overview:</strong> a sales forecast for Australian department stores based on 8 years of retail data.</li>
+              <li><strong>Approach:</strong> built and fine-tuned a seasonal forecasting model in Excel to predict the next 12 months of sales.</li>
+              <li><strong>Outcome:</strong> a 12-month forecast tested against actual sales to confirm its accuracy.</li>
+            </ul>
+            <div class="project-tools"><span>Microsoft Excel</span><span>Minitab</span></div>
+            <a href="https://github.com/ZinZinAyeChan/retail-turnover-forecasting" class="project-link" target="_blank" rel="noopener">
+              View on GitHub
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="card project-card" data-category="python">
+          <a class="project-image" href="https://github.com/ZinZinAyeChan/used-car-price-prediction" target="_blank" rel="noopener" aria-label="View Used Car Price Prediction on GitHub">
+            <img src="assets/used-car-price-prediction.jpg" alt="Used Car Price Prediction preview" loading="lazy" />
+          </a>
+          <div class="project-body">
+            <div class="project-top">
+              <span class="project-tag">Python</span>
+              <span class="project-meta">Kaggle competition</span>
+            </div>
+            <h3>Used Car Price Prediction</h3>
+            <ul class="project-bullets">
+              <li><strong>Overview:</strong> a team entry for a Kaggle data competition that predicts a used car's price from details like mileage and engine.</li>
+              <li><strong>Approach:</strong> led the modelling, testing 5 different approaches and selecting the most accurate one.</li>
+              <li><strong>Outcome:</strong> a model that placed well on the competition leaderboard.</li>
+            </ul>
+            <div class="project-tools"><span>Python</span><span>scikit-learn</span><span>Kaggle</span></div>
+            <a href="https://github.com/ZinZinAyeChan/used-car-price-prediction" class="project-link" target="_blank" rel="noopener">
+              View on GitHub
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="card project-card" data-category="python">
+          <a class="project-image" href="https://github.com/ZinZinAyeChan/credit-card-default-prediction" target="_blank" rel="noopener" aria-label="View Credit Card Default Prediction on GitHub">
+            <img src="assets/credit-card-default-prediction.jpg" alt="Credit Card Default Prediction preview" loading="lazy" />
+          </a>
+          <div class="project-body">
+            <div class="project-top">
+              <span class="project-tag">Python</span>
+              <span class="project-meta">Classification</span>
+            </div>
+            <h3>Credit Card Default Prediction</h3>
+            <ul class="project-bullets">
+              <li><strong>Overview:</strong> a model that predicts whether a credit card customer will miss their next payment.</li>
+              <li><strong>Approach:</strong> cleaned and prepared records from 10,000 customers, then trained and tested the model.</li>
+              <li><strong>Outcome:</strong> the final model correctly predicted defaults 81% of the time.</li>
+            </ul>
+            <div class="project-tools"><span>Python</span><span>scikit-learn</span></div>
+            <a href="https://github.com/ZinZinAyeChan/credit-card-default-prediction" class="project-link" target="_blank" rel="noopener">
+              View on GitHub
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="card project-card" data-category="r">
+          <a class="project-image" href="https://github.com/ZinZinAyeChan/statistical-data-analysis" target="_blank" rel="noopener" aria-label="View Statistical Data Analysis on GitHub">
+            <img src="assets/statistical-data-analysis.jpg" alt="Statistical Data Analysis preview" loading="lazy" />
+          </a>
+          <div class="project-body">
+            <div class="project-top">
+              <span class="project-tag">R</span>
+              <span class="project-meta">Statistical modelling</span>
+            </div>
+            <h3>Statistical Data Analysis</h3>
+            <ul class="project-bullets">
+              <li><strong>Overview:</strong> a statistics project written in R, covering 2 real datasets.</li>
+              <li><strong>Approach:</strong> built a model to find the main causes of traffic congestion, and ran an experiment on how recipe and temperature affect baking.</li>
+              <li><strong>Outcome:</strong> the traffic model explained 71% of the variation in congestion across US cities, written up as a clear, reproducible report.</li>
+            </ul>
+            <div class="project-tools"><span>R</span><span>R Markdown</span></div>
+            <a href="https://github.com/ZinZinAyeChan/statistical-data-analysis" class="project-link" target="_blank" rel="noopener">
+              View on GitHub
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="card project-card" data-category="excel">
+          <a class="project-image" href="https://github.com/ZinZinAyeChan/real-estate-investment-analysis" target="_blank" rel="noopener" aria-label="View Real Estate Investment Analysis on GitHub">
+            <img src="assets/real-estate-investment-analysis.jpg" alt="Real Estate Investment Analysis preview" loading="lazy" />
+          </a>
+          <div class="project-body">
+            <div class="project-top">
+              <span class="project-tag">Excel</span>
+              <span class="project-meta">Investment analysis</span>
+            </div>
+            <h3>Real Estate Investment Analysis</h3>
+            <ul class="project-bullets">
+              <li><strong>Overview:</strong> an analysis of whether Sydney's Ryde area is a smart place to invest.</li>
+              <li><strong>Approach:</strong> studied 30 years of housing prices, adjusted for inflation, and compared Ryde against the wider Sydney market.</li>
+              <li><strong>Outcome:</strong> a clear investment recommendation weighing growth potential against stability.</li>
+            </ul>
+            <div class="project-tools"><span>Microsoft Excel</span></div>
+            <a href="https://github.com/ZinZinAyeChan/real-estate-investment-analysis" class="project-link" target="_blank" rel="noopener">
+              View on GitHub
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="card project-card" data-category="java">
+          <a class="project-image" href="https://github.com/ZinZinAyeChan/2D-game-development" target="_blank" rel="noopener" aria-label="View 2D Game Development on GitHub">
+            <img src="assets/2D-game-development.jpg" alt="2D Game Development preview" loading="lazy" />
+          </a>
+          <div class="project-body">
+            <div class="project-top">
+              <span class="project-tag">Java</span>
+              <span class="project-meta">Creative coding</span>
+            </div>
+            <h3>2D Game Development</h3>
+            <ul class="project-bullets">
+              <li><strong>Overview:</strong> a 2D game built in Processing (Java).</li>
+              <li><strong>Approach:</strong> programmed a custom character that moves around the screen, with wrap-around edges and collision detection.</li>
+              <li><strong>Outcome:</strong> a playable game where you dodge 2 randomly placed obstacles until you get hit.</li>
+            </ul>
+            <div class="project-tools"><span>Processing</span><span>Java</span></div>
+            <a href="https://github.com/ZinZinAyeChan/2D-game-development" class="project-link" target="_blank" rel="noopener">
+              View on GitHub
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="card project-card" data-category="java">
+          <a class="project-image" href="https://github.com/ZinZinAyeChan/snake-game-development" target="_blank" rel="noopener" aria-label="View Snake Game Development on GitHub">
+            <img src="assets/snake-game-development.jpg" alt="Snake Game Development preview" loading="lazy" />
+          </a>
+          <div class="project-body">
+            <div class="project-top">
+              <span class="project-tag">Java</span>
+              <span class="project-meta">Creative coding</span>
+            </div>
+            <h3>Snake Game Development</h3>
+            <ul class="project-bullets">
+              <li><strong>Overview:</strong> a fully playable Snake game built in Processing (Java).</li>
+              <li><strong>Approach:</strong> built the full game from scratch, including a welcome screen, a growing snake, collision detection and a score counter.</li>
+              <li><strong>Outcome:</strong> a complete game with win and game-over states. Reach 10 points to win.</li>
+            </ul>
+            <div class="project-tools"><span>Processing</span><span>Java</span></div>
+            <a href="https://github.com/ZinZinAyeChan/snake-game-development" class="project-link" target="_blank" rel="noopener">
+              View on GitHub
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+      <nav class="pagination" id="pagination" aria-label="Project pages">
+        <button class="page-arrow" id="pagePrev" aria-label="Previous page" disabled>
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+        </button>
+        <div class="page-nums" id="pageNums"></div>
+        <button class="page-arrow" id="pageNext" aria-label="Next page">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+        </button>
+      </nav>
+
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <p class="section-eyebrow">Toolkit</p>
+      <h2 class="section-title">Skills &amp; tools</h2>
+      <div class="skills-grid">
+
+        <div class="card skill-card">
+          <h3>Languages &amp; libraries</h3>
+          <div class="chips">
+            <span>Python</span><span>R</span><span>SQL</span><span>Java</span>
+            <span>pandas</span><span>NumPy</span><span>scikit-learn</span><span>Matplotlib</span><span>Seaborn</span>
+          </div>
+        </div>
+
+        <div class="card skill-card">
+          <h3>Data &amp; tools</h3>
+          <div class="chips">
+            <span>Tableau</span><span>Microsoft Excel</span><span>Jupyter Notebook</span><span>R Markdown</span><span>Minitab</span><span>GitHub</span>
+          </div>
+        </div>
+
+        <div class="card skill-card">
+          <h3>Analytical skills</h3>
+          <div class="chips">
+            <span>Customer segmentation</span><span>Time series forecasting</span><span>Machine learning</span><span>Statistical modelling</span><span>Hypothesis testing</span><span>KPI reporting</span><span>Exploratory data analysis</span><span>Data cleaning</span>
+          </div>
+        </div>
+
+        <div class="card skill-card">
+          <h3>Stakeholder skills</h3>
+          <div class="chips">
+            <span>Client presentation</span><span>Non-technical communication</span><span>Requirements analysis</span><span>Recommendations reporting</span><span>Cross-functional collaboration</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EXPERIENCE ===================== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <p class="section-eyebrow">Career</p>
+      <h2 class="section-title">Experience</h2>
+
+      <div class="timeline">
+
+        <article class="card exp-card">
+          <div class="exp-head">
+            <h3>Sales &amp; Operations Associate</h3>
+            <span class="exp-date">Oct 2023 &ndash; Present</span>
+          </div>
+          <p class="exp-company">Sunglass Hut</p>
+          <ul>
+            <li>Monitor daily sales performance, units sold and budget attainment through an internal stock management system, translating trends into floor decisions, including product display changes and stock prioritisation, that are consistently adopted by the store manager.</li>
+            <li>Track KPIs including daily revenue targets and sell-through rates, flagging performance gaps with supporting data and recommending operational adjustments.</li>
+            <li>Reconcile 10+ daily cash and card transactions against POS records, tracing discrepancies through individual entries to resolve errors before end-of-day close.</li>
+          </ul>
+        </article>
+
+        <article class="card exp-card">
+          <div class="exp-head">
+            <h3>Audit Assistant</h3>
+            <span class="exp-date">Sep 2021 &ndash; Jun 2022</span>
+          </div>
+          <p class="exp-company">AIESEC</p>
+          <ul>
+            <li>Reviewed 150+ financial records per period across five branches monthly, applying a structured compliance checklist to verify income and expenses against approved budgets and internal policies.</li>
+            <li>Investigated flagged data anomalies directly with branch members, including missing documentation, unrecorded income, duplicate entries and miscategorised transactions.</li>
+            <li>Consolidated financial submissions from 15+ departments into a standardised Excel workbook each period, then drafted and presented monthly audit findings to management in plain language.</li>
+          </ul>
+        </article>
+
+        <article class="card exp-card">
+          <div class="exp-head">
+            <h3>Business Development Branch Manager</h3>
+            <span class="exp-date">Aug 2021 &ndash; Jan 2022</span>
+          </div>
+          <p class="exp-company">AIESEC</p>
+          <ul>
+            <li>Researched and contacted 100+ companies as prospective event sponsors, maintaining a structured outreach pipeline in Excel and HubSpot to track status, industry fit and follow-up activity.</li>
+            <li>Converted the outreach pipeline into five confirmed sponsorship partnerships over six months, contributing to 15% growth in branch sponsorship revenue.</li>
+            <li>Set team KPIs and revenue goals, reviewed pipeline data weekly, and presented monthly performance reports to clients and senior leadership.</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EDUCATION ===================== -->
+  <section class="section" id="education">
+    <div class="container">
+      <p class="section-eyebrow">Academic</p>
+      <h2 class="section-title">Education</h2>
+
+      <div class="timeline">
+
+        <article class="card exp-card edu-card">
+          <div class="exp-head">
+            <h3>Bachelor of Commerce, Accounting &amp; Business Analytics</h3>
+            <span class="exp-date">Graduated Aug 2025</span>
+          </div>
+          <p class="exp-company">Macquarie University, Sydney</p>
+          <ul>
+            <li>WAM 81.0 &middot; 2024 Merit List &middot; Peer Mentor, University Peer Mentoring Program.</li>
+            <li>Relevant units: Data Modelling and Visualisation (HD), Applied Statistics (HD), Business Forecasting (HD), Accounting Information Systems (D), Financial Statement Insights and Analysis (D), Advanced Analytics Techniques (Cr).</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <p class="section-eyebrow">Contact</p>
+      <h2 class="section-title">Get in touch</h2>
+      <p class="section-intro">Open to analyst roles and happy to chat about data, projects or opportunities.</p>
+
+      <div class="contact-grid">
+
+        <form class="card contact-form" id="contactForm" action="https://formspree.io/f/mvzljlpn" method="POST">
+          <label>
+            Name
+            <input type="text" name="name" required placeholder="Your name" />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required placeholder="you@example.com" />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" required placeholder="Your message"></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+
+        <div class="contact-details">
+          <a class="contact-item" href="mailto:zinzinayechan@gmail.com">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            <span><strong>Email</strong>zinzinayechan@gmail.com</span>
+          </a>
+          <a class="contact-item" href="tel:+61414450892">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+            <span><strong>Phone</strong>0414 450 892</span>
+          </a>
+          <a class="contact-item" href="https://www.linkedin.com/in/zinzin-ayechan/" target="_blank" rel="noopener">
+            <svg class="icon icon-solid" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1-.02 5.001A2.5 2.5 0 0 1 4.98 3.5zM3 8.98h4V21H3V8.98zM10 8.98h3.84v1.64h.05c.53-1 1.84-2.06 3.79-2.06 4.05 0 4.8 2.67 4.8 6.14V21h-4v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85V21H10V8.98z"/></svg>
+            <span><strong>LinkedIn</strong>in/zinzin-ayechan</span>
+          </a>
+          <a class="contact-item" href="https://github.com/ZinZinAyeChan" target="_blank" rel="noopener">
+            <svg class="icon icon-solid" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.5.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02.8-.22 1.65-.33 2.5-.34.85.01 1.7.12 2.5.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85 0 1.34-.01 2.42-.01 2.75 0 .27.18.58.69.48A10 10 0 0 0 22 12c0-5.52-4.48-10-10-10z"/></svg>
+            <span><strong>GitHub</strong>github.com/ZinZinAyeChan</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Zin Zin Aye Chan</p>
+      <div class="footer-socials">
+        <a href="mailto:zinzinayechan@gmail.com" aria-label="Email">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/zinzin-ayechan/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg class="icon icon-solid" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1-.02 5.001A2.5 2.5 0 0 1 4.98 3.5zM3 8.98h4V21H3V8.98zM10 8.98h3.84v1.64h.05c.53-1 1.84-2.06 3.79-2.06 4.05 0 4.8 2.67 4.8 6.14V21h-4v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85V21H10V8.98z"/></svg>
+        </a>
+        <a href="https://github.com/ZinZinAyeChan" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg class="icon icon-solid" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.5.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02.8-.22 1.65-.33 2.5-.34.85.01 1.7.12 2.5.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85 0 1.34-.01 2.42-.01 2.75 0 .27.18.58.69.48A10 10 0 0 0 22 12c0-5.52-4.48-10-10-10z"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
